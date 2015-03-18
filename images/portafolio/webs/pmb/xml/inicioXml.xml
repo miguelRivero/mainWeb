@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<index>
+	<title>
+		<line1><![CDATA[Nuestro]]></line1>
+		<line2><![CDATA[<i>COMPROMISO</i>]]></line2>
+	</title>
+	<column>
+			<textoA><![CDATA[En Publicidad y Marketing Bach, empresa fundada en 2007 en Barcelona, somos especialistas en servicios de publicidad y marketing para la pequeña y mediana empresa.</br> 
+Nuestro objetivo es convertirnos en el principal socio estratégico de cada uno de nuestros clientes, para generar nuevas oportunidades laborales entre profesionales aportando valor a sus servicios y soluciones a las necesidades específicas y objetivos particulares.]]></textoA>
+			<textoB1><![CDATA[A través de la revista Guía de Empresas Actualidad Empresarial S.XXI, gestionada y editada íntegramente por PMB, ofrecemos a profesionales y clientes de diferentes sectores a nivel nacional información de interés para el lector, a través de artículos y reportajes enfocados a la mejora continua de la actividad empresarial.]]></textoB1>
+			<textoB2><![CDATA[En Publicidad y Marketing Bach, empresa fundada en 2007 en Barcelona, somos especialistas en servicios de publicidad y marketing para la pequeña y mediana empresa.]]></textoB2>
+	</column>
+	<button text="SERVICIOS" link="index/nav/servicios" color="0xF57E06" rollover="0x000000"/>
+</index>

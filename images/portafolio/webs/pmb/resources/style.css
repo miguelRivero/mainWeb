@@ -1,0 +1,20 @@
+.cyrillic {
+	font-family: "Helvetica CY BoldOblique";
+	font-size: 12;
+	color: #000000;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.japanese {
+	font-family: "Arial Unicode MS";
+	font-size: 12;
+	color: #000000;
+	font-weight: bold;
+}
+
+.english {
+	font-family: "Verdana";
+	font-size: 12;
+	color: #FF0000;
+}

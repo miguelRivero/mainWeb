@@ -1,0 +1,154 @@
+html {
+	font-size: 100%;
+	background: url('../img/circuit_bg_300.gif');
+	-webkit-font-smoothing: antialiased;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	text-align: center;
+}
+
+h1 {
+	padding: 0px;
+	font-family: 'Poller One', Georgia, serif;
+}
+
+h3 {
+	font-family: 'Arvo', Georgia, serif;
+}
+
+#cover {
+	height: 480px;
+	width: 480px;
+	background: black;
+	position: relative;
+	margin: 50px 0 0 -240px;
+	left: 50%;
+	z-index: 1;
+	overflow: hidden;
+}
+
+#borderDiv {
+	height: 480px;
+	width: 480px;
+	top: 0px;
+	left: 0px;
+	overflow: hidden;
+	position: absolute;
+	z-index: 150; /* 	border:  1px solid #fff;
+	 */
+}
+
+#borderDiv img {
+	height: 680px;
+	width: 680px;
+	position: absolute;
+	top: -100px;
+	left: -100px;
+}
+
+#borderDiv img:hover {
+	-webkit-animation: spin 1s ease-out;
+	-moz-animation: spin 1s ease-out;
+	-ms-animation: spin 1s ease-out;
+	-o-animation: spin 1s ease-out;
+	animation: spin 1s ease-out;
+}
+
+@keyframes "spin" {
+ 0% {
+    -webkit-transform: rotate(0deg);
+   	-moz-transform: rotate(0deg);
+   	-o-transform: rotate(0deg);
+   	-ms-transform: rotate(0deg);
+   	transform: rotate(0deg);
+ }
+ 100% {
+    -webkit-transform: rotate(360deg);
+   	-moz-transform: rotate(360deg);
+   	-o-transform: rotate(360deg);
+   	-ms-transform: rotate(360deg);
+   	transform: rotate(360deg);
+ }
+
+}
+
+@-moz-keyframes spin {
+ 0% {
+   -moz-transform: rotate(0deg);
+   transform: rotate(0deg);
+ }
+ 100% {
+   -moz-transform: rotate(360deg);
+   transform: rotate(360deg);
+ }
+
+}
+
+@-webkit-keyframes "spin" {
+ 0% {
+   -webkit-transform: rotate(0deg);
+   transform: rotate(0deg);
+ }
+ 100% {
+   -webkit-transform: rotate(360deg);
+   transform: rotate(360deg);
+ }
+
+}
+
+@-ms-keyframes "spin" {
+ 0% {
+   -ms-transform: rotate(0deg);
+   transform: rotate(0deg);
+ }
+ 100% {
+   -ms-transform: rotate(360deg);
+   transform: rotate(360deg);
+ }
+
+}
+
+@-o-keyframes "spin" {
+ 0% {
+   -o-transform: rotate(0deg);
+   transform: rotate(0deg);
+ }
+ 100% {
+   -o-transform: rotate(360deg);
+   transform: rotate(360deg);
+ }
+
+}
+
+@-o-keyframes spin {
+	-o-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+ 100% {
+   -o-transform: rotate(360deg);
+   transform: rotate(360deg);
+ }
+
+}
+
+ @-ms-keyframes spin {
+	-ms-transform: rotate(0deg);
+	transform: rotate(0deg);
+}
+ 100% {
+   -ms-transform: rotate(360deg);
+   transform: rotate(360deg);
+ }
+
+}
+
+.site-footer .site-info { 
+		font-family: 'Arvo', Georgia, serif;
+		padding-top:3em; 
+		text-align:center; 
+		font-size:1em; 
+}

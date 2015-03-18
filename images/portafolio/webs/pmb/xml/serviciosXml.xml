@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<!--///////////////////////////////////////////////////////////////////////////////////////////////////-->
+	<title>
+		<line1><![CDATA[De Profesional]]></line1>
+		<line2><![CDATA[<i>A PROFESIONAL </i>]]></line2>
+	</title>
+	<!--///////////////////////////////////////////////////////////////////////////////////////////////////-->
+	<intro>
+			<texto><![CDATA[<b>A través de la revista Guía de Empresas Actualidad Empresarial S.XXI, gestionada y editada íntegramente por PMB, ofrecemos a nuestros clientes:</b>]]></texto>
+	</intro>
+	<!--///////////////////////////////////////////////////////////////////////////////////////////////////-->
+	<servicios>
+			<texto><![CDATA[Espacio publicitario en nuestra revista, medio de referencia en el sector empresarial, en el que se incluyen los servicios ofrecidos por los anunciantes y sus datos de contacto, clasificados en función del epígrafe y de la provincia donde operan.]]></texto>
+			<texto><![CDATA[Inclusión de los datos de anunciantes en el buscador de nuestra web.]]></texto>
+			<texto><![CDATA[Guía completa en papel que el anunciante recibe de forma gratuita.]]></texto>
+			<texto><![CDATA[Publicación de la guía completa en nuestra página web.]]></texto>
+			<texto><![CDATA[Máxima confidencialidad de los datos de su empresa.]]></texto>
+	</servicios> 
+	<!--///////////////////////////////////////////////////////////////////////////////////////////////////-->
+	<button text="DESCUBRE LA GUÍA" link="index/nav/clientes" color="0xF57E06" rollover="0x000000"/>
+	<!--///////////////////////////////////////////////////////////////////////////////////////////////////-->
+</data>		

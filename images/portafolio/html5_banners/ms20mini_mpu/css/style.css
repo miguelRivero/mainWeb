@@ -1,0 +1,160 @@
+html {
+    background: url(../../../../site/circuit_bg_300.gif);
+    -webkit-font-smoothing: antialiased;
+   	font-size: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    vertical-align: middle;
+  	color: #333;
+	text-align: center
+}
+
+h1 {
+	padding: 0px;
+	font-family: 'Poller One', Georgia, serif;
+}
+
+h3 {
+	font-family: 'Arvo', Georgia, serif;
+}
+
+#bg-exit {
+    position: relative;
+    width: 300px;
+    height: 250px;
+    top: 0px;
+    left: 0px;
+    cursor: pointer;
+    opacity: 0;
+    border: solid 1px red;
+    margin-top: 50px;
+    margin: 0px auto; /* IE10 Consumer Preview */
+
+}
+
+#wrapper {
+    position: relative;
+    text-align: center;
+    width: 300px;
+    height: 250px;
+    margin: 0px auto; /* IE10 Consumer Preview */
+    background-image: -webkit-radial-gradient(center, circle farthest-corner, #3D3D3D 0%, #000000 100%);
+    background-image: -moz-radial-gradient(center, circle farthest-corner, #3D3D3D 0%, #000000 100%);
+    background-image: -o-radial-gradient(center, circle farthest-corner, #3D3D3D 0%, #000000 100%);
+    background-image: -ms-radial-gradient(center, circle farthest-corner, #3D3D3D 0%, #000000 100%);
+    background-image: radial-gradient(center, circle farthest-corner, #3D3D3D 0%, #000000 100%);
+    z-index: -100;
+    border: solid 1px #333;
+    overflow: hidden;
+    margin-top: -250px;
+}
+
+
+
+#banner {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#logoKorg {
+    position: absolute;
+    margin: 220px 10px 10px 224px;
+    z-index: 100;
+}
+
+#logoKorg50 {
+    position: absolute;
+    margin: 96px 62px;
+}
+
+#schematics {
+    position: relative;
+    visibility: hidden;
+}
+
+#schematics2 {
+    position: relative;
+    top: -250px;
+}
+
+p {
+    font-family: 'Alfa Slab One', cursive;
+    margin: auto;
+    width: 300px;
+    padding: 0px;
+}
+
+#copy1 {
+    top: 80px;
+    position: absolute;
+    color: black;
+    font-size: 250%;
+}
+
+#copy2 {
+    top: 130px;
+    position: absolute;
+    color: black;
+    font-size: 200%;
+}
+
+#copy3 {
+    top: 70px;
+    position: absolute;
+    color: black;
+    font-size: 250%;
+}
+
+#copy4 {
+    top: 40px;
+    position: absolute;
+    color: black;
+    font-size: 250%;
+}
+
+#ms20_perfil {
+    position: absolute;
+    margin: auto;
+    top: 30px;
+    left: 10px;
+}
+
+#ms20_persp1 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#ms20_persp2 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#imagesContainer {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.images {
+    position: relative;
+    padding: 0;
+}
+
+.images img {
+    position: absolute;
+    display: none;
+}
+
+.site-footer .site-info { 
+		font-family: 'Arvo', Georgia, serif;
+		padding-top:3em; 
+		text-align:center; 
+		font-size:1em; 
+}

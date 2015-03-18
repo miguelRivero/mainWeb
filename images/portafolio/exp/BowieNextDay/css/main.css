@@ -1,0 +1,111 @@
+html {
+    font-size:100%;
+    background: url('../img/circuit_bg_300.gif');
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: #333;
+	text-align: center;
+}
+
+h1 {
+	padding: 0px;
+	font-family: 'Poller One', Georgia, serif;
+}
+
+h3 {
+	font-family: 'Arvo', Georgia, serif;
+}
+
+.cover {
+	width: 480px;
+	height: 480px;
+	position: relative;
+	margin: 50px 0 0 -240px;
+	left: 50%;
+	z-index: -1;
+	overflow: hidden;
+}
+
+#titleHero {
+	top: 20px;
+	left: 230px;
+	position: absolute;
+	z-index: 0;
+}
+
+#titleHero:after {
+	content: "";
+	background-color: #333;
+	width: .1px;
+	height: 7px;
+	display: inline-block;
+	position: absolute;
+	z-index: 1;
+	left: 10px;
+	top: 5px;
+
+	-webkit-animation: tacha 5s infinite alternate;
+	-moz-animation: tacha 5s infinite alternate;
+	-ms-animation: tacha 5s infinite alternate;
+	-o-animation: tacha 5s infinite alternate;
+	animation: tacha 5s infinite alternate;
+
+	-webkit-animation-timing-function: ease-in-out;
+	-moz-animation-timing-function: ease-in-out;
+	-ms-animation-timing-function: ease-in-out;
+	-o-animation-timing-function: ease-in-out;
+	animation-timing-function: ease-in-out;
+}
+
+@keyframes "tacha" {
+ to {
+    width: 50px;
+ }
+
+}
+
+@-moz-keyframes tacha {
+ to {
+   width: 50px;
+ }
+
+}
+
+@-webkit-keyframes "tacha" {
+ to {
+   width: 50px;
+ }
+
+}
+
+@-ms-keyframes "tacha" {
+	to  {
+	 width: 50px;
+}
+
+}
+
+ @-o-keyframes "tacha" {
+	to  {
+	 width: 50px;
+}
+
+}
+
+#cube {
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	z-index: 3;
+}
+
+.site-footer .site-info { 
+		font-family: 'Arvo', Georgia, serif;
+		padding-top:3em; 
+		text-align:center; 
+		font-size:1em; 
+}

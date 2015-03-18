@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<site title="Publicidad y Marketing Bach: %PAGE%" menu="true">
+		<!--//////////////////////////////////////////////////////////////////////////////-->
+		<page id="index" title="PMB Website" src="index.swf" depth="bottom">
+		<asset id="indexXml" src="xml/indexPage.xml" preload="true"/>
+		<asset id="fonts" src="fonts/fonts.swf" fonts="MyHelvetica,MyHelveticaB,MyMyriadC,MyMyriadCI,MyArial"  preload="true"/>
+		<asset id="styles" src="styles/site.css"/>
+		<asset id="logo" src="images/logo.png"  type="sprite" preload="true"/>
+		<asset id="header" src="images/header.png"  type="sprite" preload="true"/>
+			<!--//////////////////////////////////////////////////////////////////////////////-->
+			<page id="nav" src="nav.swf" depth="top">
+			<asset id="siteNav" src="xml/siteNav.xml" preload="true"/>
+			<asset id="headerInicio" src="images/headers/inicio_header.swf" preload="true"/>
+			<asset id="headerServicios" src="images/headers/servicios.png"  type="sprite" preload="true"/>
+			<asset id="headerClientes" src="images/headers/clientes.png"  type="sprite" preload="true"/>
+			<asset id="headerDescargas" src="images/headers/descargas.png"  type="sprite" preload="true"/>
+			<asset id="headerContacto" src="images/headers/contacto.png"  type="sprite" preload="true"/>
+			<!--//////////////////////////////////////////////////////////////////////////////-->
+			<page id="inicio" title="Inicio" src="inicio.swf" menu="true">
+				<asset id="inicioXml" src="xml/inicioXml.xml" preload="true"/>
+				<asset id="logoGuia" src="images/logoGuia.png"  type="sprite" preload="true"/>
+				<asset id="iniBtn" src="images/iniBtn.png"  type="sprite" preload="true"/>
+			</page>		
+			<!--//////////////////////////////////////////////////////////////////////////////-->
+			<page id="servicios" title="Servicios" src="servicios.swf" menu="true">
+				<asset id="serviciosXml" src="xml/serviciosXml.xml" preload="true"/>
+				<asset id="logoGuia_s" src="images/logoGuia_small.png"  type="sprite" preload="true"/>
+			</page>
+			<!--//////////////////////////////////////////////////////////////////////////////-->
+    		<page id="clientes" title="Clientes" src="clientes.swf" menu="true">
+				<asset id="clientesXml" src="xml/clientesXml.xml" preload="true"/>
+				<asset id="listaCliente" src="xml/listaCliente.xml" preload="true"/>
+			</page>		
+ 			<!--//////////////////////////////////////////////////////////////////////////////-->
+   			<page id="descargas" title="Descargas" src="descargas.swf" menu="true">   
+   				<asset id="descargasXml" src="xml/descargasXml.xml" preload="true"/>
+				<asset id="logoGuia" src="images/logoGuia.png"  type="sprite" preload="true"/>
+			</page>	
+			<!--//////////////////////////////////////////////////////////////////////////////-->
+    		<page id="contacto" title="Contacto" src="contacto.swf" menu="true">    
+				<asset id="contactoXml" src="xml/contactoXml.xml" preload="true"/>
+				<asset id="logoGuia" src="images/logoGuia.png"  type="sprite" preload="true"/>
+			</page>	        
+ 			<!--//////////////////////////////////////////////////////////////////////////////-->
+   		</page>
+    </page>
+</site>

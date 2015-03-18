@@ -8,13 +8,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta http-equiv="imagetoolbar" content="false">
     <meta name="description"
-          content="Miguel Rivero Desarrollador FrontEnd (HTML5 + CSS3 + JS) y Flash en Barcelona. Más de 5 años de experiencia en el desarrollo web. Página principal.">
+          content="Miguel Rivero Desarrollador FrontEnd (HTML5 + CSS3 + JS) y Flash en Barcelona. Formulario de contacto">
     <meta name="keywords"
           content="web developer, designer, devigner, html5, css3, javasript, jquery, frontend, flash, portfolio">
     <meta name="author" content="Miguel Rivero">
 
     <!-- InstanceBeginEditable name="doctitle" -->
-    <title>Miguel Rivero: Desarrollador Interactivo, Barcelona</title>
+    <title>Miguel Rivero: Página de contacto</title>
     <!-- InstanceEndEditable -->
 
     <!-- FAV and TOUCH ICONS -->
@@ -48,11 +48,16 @@
 
     <!-- SCRIPTS -->
     <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-    <script src="../../ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
-    <script>window.jQuery || document.write("<script src='js/jquery-1.8.2.min.js'><\/script>")</script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/jquery-1.8.2.min.js"><\/script>')</script>
 
 
     <!-- InstanceBeginEditable name="head" -->
+
+    <!--highlight current menu item-->
+    <script>$(function () {
+        $('#site-navigation > ul > li').removeClass('current-menu-item').eq(4).addClass('current-menu-item')
+    });</script>
 
     <!-- InstanceEndEditable -->
 
@@ -68,7 +73,6 @@
             s.parentNode.insertBefore(g, s)
         }(document, 'script'));
     </script>
-
 </head>
 
 
@@ -82,12 +86,10 @@
 
         <!-- .row -->
         <div class="row">
-
             <!-- .site-title -->
             <hgroup>
-                <h1 class="site-title" id='shadow'><a href="index.html" title="Miguel Rivero Website" rel="home">Miguel
-                                                                                                                 Rivero
-                                                                                                                 <!--<img src="images/logo.png" alt="logo">--></a>
+                <h1 class="site-title" id='shadow'><a href="index.html" title="Miguel Rivero Website" rel="home">Miguel Rivero
+                                                                                                     <!--<img src="images/logo.png" alt="logo">--></a>
                 </h1>
 
                 <h2 class="site-description">. . . enlazando códigos y visiones en el universo del pixel.</h2>
@@ -101,6 +103,7 @@
                     <li><a href="perfil.html">Perfil</a></li>
                     <li><a href="portafolio.html">Portafolio</a></li>
                     <li><a href="http://miguelrivero.net/WP/" target="_blank">Blog</a></li>
+
                     <li><a href="contacto.html">Contacto</a></li>
                 </ul>
             </nav>
@@ -111,6 +114,7 @@
 
     </header>
     <!-- .site-header -->
+
 
     <!-- #main -->
     <section id="main" class="middle wrapper">
@@ -131,11 +135,12 @@
 
 
                         <!-- .hentry -->
-                        <article class="page hentry">
+                        <article class="page type-page hentry">
+
 
                             <!-- .entry-header -->
                             <header class="entry-header">
-                                <h1 class="entry-title">IDENTIKIT</h1>
+                                <h1 class="entry-title">CONTACTO</h1>
                             </header>
                             <!-- .entry-header -->
 
@@ -143,54 +148,57 @@
                             <!-- .entry-content -->
                             <div class="entry-content">
 
-                                <img src="images/site/profile2.gif" alt="profile-image">
 
-                                <p class="site-description">Miguel Rivero Desarrollador FrontEnd (HTML5 + CSS3 + JS) y
-                                                            Flash. Más de 5 años de experiencia en el desarrollo
-                                                            web.</p>
-                                <p class="lead">Bienvenido a mi web. Aquí encontrarás una muestra de mi trabajo como <a href="perfil.html" class="blueK">desarrollador y diseñador interactivo</a>, así como algunas de mis <a href="portafolio.html" class="blueK">habilidades y herramientas</a> en el fascinante mundo de la producción web. <br><br> Como podrás ver, vengo de las canteras de <strong>Flash</strong> y <strong>Actionscript</strong>, y ahora soy un nuevo apóstol de <strong>HTML5</strong>, <strong>CSS3</strong> y <strong>Javascript</strong>. Distintas tecnologías, pero el mismo oficio: hacer de la navegación una experiencia amigable, atractiva, elegante y significativa.<br><br></p>
-                               <!--
- <p class="lead"><span class="blueK">Clic Lunar</span>: sueño<br>
-                                                                                     exorcismos de webs satánicas <span
-                                            class="redK">{</span><br>
-                                    <span class="tab">plagas de estilos sordos</span><br>
-                                    <span class="tab">pantallas que conjuran</span><br>
-                                    <span class="tab">alineaciones desgarradas</span><br>
-                                    <span class="redK">}</span> entonces <span class="redK">{</span><br>
-                                    <span class="tab">el día y el café se cargan</span><br>
-                                    <span class="tab">y actualizan todo lo dañado</span><br>
-                                    <span class="tab">siempre hay algo que mover componer adaptar</span><br>
-                                    <span class="tab">como alegres servidores de la Red</span><br>
-                                    <span class="tab">que colorean su corazón</span><br>
-                                    <span class="tab">y hacen latir sus bits</span><br>
-                                    <span class="tab"><span class="blueK">(</span>ese clicar andante</span><br>
-                                    <span class="tab">estallido compartido de palabras clave</span><br>
-                                    <span class="tab">enlazando búsquedas</span><br>
-                                    <span class="tab">contactando datos <span class="blueK">; )</span></span><br>
-                                    <span class="redK">}</span></p>
--->
+                                <!--<div class="map">-->
+                                    <!--<h4>Creando web desde el hermoso barrio de Gracia en Barcelona</h4>-->
+                                    <!--<iframe src="https://maps.google.es/maps?f=q&amp;source=s_q&amp;hl=es&amp;geocode=&amp;q=joan+blanques+67&amp;sll=41.629815,2.070923&amp;sspn=0.77703,1.636963&amp;ie=UTF8&amp;hq=&amp;hnear=Carrer+de+Joan+Blanques,+67,+08024+Barcelona&amp;t=m&amp;z=14&amp;iwloc=A&amp;ll=41.406733,2.158868&amp;output=embed"></iframe>-->
+                                <!--</div>-->
 
-                                <p><a href="images/site/MiguelRivero_CV_2013.pdf" target ="_blank" class="button big navy d3">CV en PDF</a></p>
+                                <img src="images/site/gracia.jpg" alt="contact-image">
 
-                                <hr>
+                                <p class="site-description">Creando web desde el hermoso barrio de <strong>Gracia</strong> en <strong>Barcelona</strong>.</p>
 
-                                <h3>¡Conectémonos!</h3>
+                                <p>¡Envíame un mensaje!</p>
 
-                                <!-- social icons -->
-                                <ul class="social">
-                                    <li><a class="facebook" href="http://www.facebook.com/miguelriverolopez" target="_blank">&#88;</a>
-                                    </li>
-                                    <li><a class="twitter" href="http://twitter.com/migue1rivero" target="_blank">&#95;</a></li>
-                                    <li><a class="linkedin" href="http://www.linkedin.com/in/miguelriverolopez" target="_blank">
-                                        &#118;</a></li>
-                                    <li><a class="google" href="http://gplus.to/miguelriveroloop" target="_blank">&#107;</a></li>
-                                    <!--<li><a class="skype" href="#">&#58;</a></li>-->
-                                    <li><a class="wordpress" href="http://miguelrivero.net/WP/" target="_blank">$</a></li>
-                                    <li><a id="codepen" href="http://codepen.io/miguelrivero" target="_blank"></a></li>
-                                    <li><a id="codio" href="http://codio.com/miguelrivero" target="_blank"></a></li>
+                                <!-- .contact-form -->
+                                <div class="contact-form">
 
-                                </ul>
-                                <!-- social icons -->
+                                    <form id="contact-form" action="contact.php" method="post">
+
+                                        <!-- enter your e-mail adress -->
+                                        <input type="hidden" id="to" name="to" value="miguelriveroloop@gmail.com">
+
+                                        <p>
+                                            <label for="name">Tu nombre</label>
+                                            <input type="text" name="name" id="name" class="required">
+                                        </p>
+
+                                        <p>
+                                            <label for="email">Tu email</label>
+                                            <input type="text" name="email" id="email" class="required email">
+                                        </p>
+
+                                        <p>
+                                            <label for="subject">Asunto</label>
+                                            <input type="text" name="subject" id="subject" class="required">
+                                        </p>
+
+                                        <p>
+                                            <label for="message">Tu mensaje</label>
+                                            <textarea name="message" id="message" class="required"></textarea>
+                                        </p>
+
+                                        <p>
+                                            <input type="submit" value="Enviar">
+                                            <img class="ajax-loader" src="images/bckg/loader_light.gif"
+                                                 alt="Sending ...">
+                                        </p>
+
+                                    </form>
+
+                                </div>
+                                <!-- .contact-form -->
+
 
                             </div>
                             <!-- .entry-content -->
@@ -202,7 +210,6 @@
 
                     </div>
                     <!-- .row -->
-
 
                     <!-- InstanceEndEditable -->
 
@@ -217,6 +224,7 @@
         </div>
     </section>
     <!-- #main -->
+
 
     <!-- .site-footer -->
     <footer class="site-footer wrapper" role="contentinfo">
@@ -246,9 +254,8 @@
 <script src="js/jquery.uniform.min.js"></script>
 
 <!-- InstanceBeginEditable name="body-end" -->
-<script src="js/jquery.flexslider-min.js"></script>
-<script src="js/mediaelement/mediaelement-and-player.min.js"></script>
-<link rel="stylesheet" type="text/css" href="js/mediaelement/mediaelementplayer.css">
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/send-mail.js"></script>
 <!-- InstanceEndEditable -->
 
 <script src="js/main.js"></script>
