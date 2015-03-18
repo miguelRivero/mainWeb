@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	<nameText text= "NOMBRE"/>
+	<emailText text= "EMAIL"/>
+	<telfText text= "TELÉFONO"/>
+	<messageText text= "CONSULTA"/>
+	<sendButtonText text= "ENVIAR"/>
+	<eraseButtonText text= "BORRAR"/>
+	<sendingText text= "Enviando..."/>
+	<errorEmailText text= "Por favor, introduzca un email válido."/>
+	<errorServerText text= "Error de servidor. Por favor, inténtelo más tarde."/>
+	<confirmationText text= "Consulta enviada. Muchas gracias."/>
+</data>

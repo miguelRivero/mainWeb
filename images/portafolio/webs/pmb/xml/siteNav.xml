@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <site> 
+  	<section name="INICIO"  src="index/nav/inicio" />
+  	<section name="SERVICIOS" src="index/nav/servicios" />
+  	<section name="CLIENTES" src="index/nav/clientes"  />
+  	<section name="DESCARGAS"src="index/nav/descargas"  />
+	<section name="CONTACTO" src="index/nav/contacto" />
+ </site>

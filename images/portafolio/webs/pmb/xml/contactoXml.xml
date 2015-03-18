@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<contacto>
+		<name><![CDATA[<b>Publicidad y Marketing Bach, S.L.U.</b>]]></name>
+		<address><![CDATA[C/Ter, 18, Entresuelo 17</br/>
+08026 Barcelona</br>
+Telf. 93 245 39 46</br>
+Fax. 93 247 00 02</br>]]>
+		</address>
+	</contacto>
+	<mapKey key="ABQIAAAAbtB7jxvlGk2Oc9od42IQ2RSOev-sGPQqdROlZje6s4cQXOSwzRRTSrmnu7di9iu2CrPb9Oi1gJ_01A" />
+	<LatLng longitude="2.18806095" latitude="41.41040651"/>
+	<formSettings>
+		<nameText text= "NOMBRE"/>
+		<emailText text= "EMAIL"/>
+		<telfText text= "TELÉFONO"/>
+		<messageText text= "CONSULTA"/>
+		<sendButtonText text= "ENVIAR"/>
+		<eraseButtonText text= "BORRAR"/>
+		<sendingText text= "Enviando..."/>
+		<errorEmailText text= "Por favor, introduzca un email válido."/>
+		<errorServerText text= "Error de servidor. Por favor, inténtelo más tarde."/>
+		<confirmationText text= "Consulta enviada. Muchas gracias."/>
+	</formSettings>
+</data>

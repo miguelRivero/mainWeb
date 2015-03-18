@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<!--//////////////// text title top right //////////////////////-->
+	<title>
+		<line1><![CDATA[Encuentra]]></line1>
+		<line2><![CDATA[<i>LO QUE BUSCAS</i>]]></line2>
+	</title>
+	<!--///////////////////text buttons///////////////////-->
+	<buttons>
+		<btn1><![CDATA[SECTOR]]></btn1>
+		<btn1_txt><![CDATA[Por favor elija uno.]]></btn1_txt>
+		<btn2><![CDATA[PROVINCIA]]></btn2>
+		<btn2_txt><![CDATA[Por favor elija una.]]></btn2_txt>
+	</buttons>	
+	<!--/////////////////////////////////////
+	<sector id="Construcción">
+			<provincia id="Barcelona">
+				<cliente><![CDATA[
+				                1 CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+				                C/Carmen, 27 - t08008 Barcelona<br/>
+								Telf. 93 00t0 00 00<br/>
+								<br/>
+				            ]]>
+				</cliente>
+				<cliente><![CDATA[
+				                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+				                C/Carmen, 27 - t08008 Barcelona<br/>
+								Telf. 93 00t0 00 00<br/>
+								<br/>
+				            ]]>
+				</cliente>
+				<cliente><![CDATA[
+				                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+				                C/Carmen, 27 - t08008 Barcelona<br/>
+								Telf. 93 00t0 00 00<br/>
+								<br/>
+				            ]]>
+				</cliente>
+				<cliente><![CDATA[
+				                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+				                C/Carmen, 27 - t08008 Barcelona<br/>
+								Telf. 93 00t0 00 00<br/>
+								<br/>
+				            ]]>
+				</cliente>
+				<cliente><![CDATA[
+				                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+				                C/Carmen, 27 - t08008 Barcelona<br/>
+								Telf. 93 00t0 00 00<br/>
+								<br/>
+				            ]]>
+				</cliente>
+				<cliente><![CDATA[
+				                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+				                C/Carmen, 27 - t08008 Barcelona<br/>
+								Telf. 93 00t0 00 00<br/>
+								<br/>
+				            ]]>
+				</cliente>
+				<cliente><![CDATA[
+				                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+				                C/Carmen, 27 - t08008 Barcelona<br/>
+								Telf. 93 00t0 00 00<br/>
+								<br/>
+				            ]]>
+				</cliente>
+				<cliente><![CDATA[
+				                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+				                C/Carmen, 27 - t08008 Barcelona<br/>
+								Telf. 93 00t0 00 00<br/>
+								<br/>
+				            ]]>
+				</cliente>
+				<cliente><![CDATA[
+				                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+				                C/Carmen, 27 - t08008 Barcelona<br/>
+								Telf. 93 00t0 00 00<br/>
+								<br/>
+				            ]]>
+				</cliente>
+			</provincia>
+			<provincia id="Madrid">
+					<cliente><![CDATA[
+					                2 CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+					                C/Carmen, 27 - t08008 Barcelona<br/>
+									Telf. 93 00t0 00 00<br/>
+									<br/>
+					            ]]>
+					</cliente>
+					<cliente><![CDATA[
+					                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+					                C/Carmen, 27 - t08008 Barcelona<br/>
+									Telf. 93 00t0 00 00<br/>
+									<br/>
+					            ]]>
+					</cliente>
+					<cliente><![CDATA[
+					                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+					                C/Carmen, 27 - t08008 Barcelona<br/>
+									Telf. 93 00t0 00 00<br/>
+									<br/>
+					            ]]>
+					</cliente>
+					<cliente><![CDATA[
+					                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+					                C/Carmen, 27 - t08008 Barcelona<br/>
+									Telf. 93 00t0 00 00<br/>
+									<br/>
+					            ]]>
+					</cliente>
+					<cliente><![CDATA[
+					                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+					                C/Carmen, 27 - t08008 Barcelona<br/>
+									Telf. 93 00t0 00 00<br/>
+									<br/>
+					            ]]>
+					</cliente>
+					<cliente><![CDATA[
+					                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+					                C/Carmen, 27 - t08008 Barcelona<br/>
+									Telf. 93 00t0 00 00<br/>
+									<br/>
+					            ]]>
+					</cliente>
+					<cliente><![CDATA[
+					                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+					                C/Carmen, 27 - t08008 Barcelona<br/>
+									Telf. 93 00t0 00 00<br/>
+									<br/>
+					            ]]>
+					</cliente>
+					<cliente><![CDATA[
+					                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+					                C/Carmen, 27 - t08008 Barcelona<br/>
+									Telf. 93 00t0 00 00<br/>
+									<br/>
+					            ]]>
+					</cliente>
+					<cliente><![CDATA[
+					                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+					                C/Carmen, 27 - t08008 Barcelona<br/>
+									Telf. 93 00t0 00 00<br/>
+									<br/>
+					            ]]>
+					</cliente>
+			</provincia>
+	</sector>
+	<sector id="Restaurantes">
+			<provincia id="Mallorca">
+				<cliente><![CDATA[
+				                3 CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+				                C/Carmen, 27 - t08008 Barcelona<br/>
+								Telf. 93 00t0 00 00<br/>
+								<br/>
+				            ]]>
+				</cliente>
+				<cliente><![CDATA[
+				                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+				                C/Carmen, 27 - t08008 Barcelona<br/>
+								Telf. 93 00t0 00 00<br/>
+								<br/>
+				            ]]>
+				</cliente>
+				<cliente><![CDATA[
+				                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+				                C/Carmen, 27 - t08008 Barcelona<br/>
+								Telf. 93 00t0 00 00<br/>
+								<br/>
+				            ]]>
+				</cliente>
+				<cliente><![CDATA[
+				                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+				                C/Carmen, 27 - t08008 Barcelona<br/>
+								Telf. 93 00t0 00 00<br/>
+								<br/>
+				            ]]>
+				</cliente>
+				<cliente><![CDATA[
+				                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+				                C/Carmen, 27 - t08008 Barcelona<br/>
+								Telf. 93 00t0 00 00<br/>
+								<br/>
+				            ]]>
+				</cliente>
+				<cliente><![CDATA[
+				                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+				                C/Carmen, 27 - t08008 Barcelona<br/>
+								Telf. 93 00t0 00 00<br/>
+								<br/>
+				            ]]>
+				</cliente>
+				<cliente><![CDATA[
+				                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+				                C/Carmen, 27 - t08008 Barcelona<br/>
+								Telf. 93 00t0 00 00<br/>
+								<br/>
+				            ]]>
+				</cliente>
+				<cliente><![CDATA[
+				                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+				                C/Carmen, 27 - t08008 Barcelona<br/>
+								Telf. 93 00t0 00 00<br/>
+								<br/>
+				            ]]>
+				</cliente>
+				<cliente><![CDATA[
+				                CONSTRUCCIÓN LUIS AGUILAR, S.L.<br/>
+				                C/Carmen, 27 - t08008 Barcelona<br/>
+								Telf. 93 00t0 00 00<br/>
+								<br/>
+				            ]]>
+				</cliente>
+			</provincia>
+	</sector>
+
+///////////////////////-->
+</data>

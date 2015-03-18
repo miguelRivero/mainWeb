@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<!--//////////////// text title top right //////////////////////-->
+	<txtDer>
+		<texto><![CDATA[Haz clic sobre las miniaturas para visualizar los números de la Guía de Empresas.]]></texto>
+	</txtDer>
+	<!--///////////////////DESCARGAS: El nombre de cada sub nodo debe coincidir con el id de la imagen respectiva, que se encuentra en el documento site.xml///////////////////-->
+	<descargas COLUMNS="4" WIDTH="125" HEIGHT="160" DISTANCE="20" >
+		<item>
+			<imagen img= "images/descargas/image1.jpg"/>
+			<archivo dwld = "descargas/GuiaEmp_num1.pdf" />
+			<texto><![CDATA[Numero 1]]></texto>
+		</item>
+		<item>
+			<imagen img=  "images/descargas/image2.jpg"/>
+			<archivo dwld = "descargas/GuiaEmp_num2.pdf" />
+			<texto><![CDATA[Numero 2]]></texto>
+		</item>	
+		<item>
+			<imagen img=  "images/descargas/image3.jpg"/>
+			<archivo dwld = "descargas/GuiaEmp_num3.pdf"/>
+			<texto><![CDATA[Numero 3]]></texto>
+		</item>
+		<item>
+			<imagen img=  "images/descargas/image4.jpg"/>
+			<archivo dwld = "descargas/GuiaEmp_num4.pdf" />
+			<texto><![CDATA[Numero 4]]></texto>
+		</item>
+	</descargas>	
+</data>
