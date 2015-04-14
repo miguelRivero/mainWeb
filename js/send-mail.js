@@ -9,6 +9,7 @@ $(function() {
 		if (contactForm.valid())
 		{
 			// loader.css('display', 'block');
+			$('.contact-form input[type="submit"]').fadeOut();
             $('.alert.success').remove();
             $('.alert.error').remove();
 			var formValues = $(this).serialize();
