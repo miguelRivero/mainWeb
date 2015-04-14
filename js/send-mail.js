@@ -8,7 +8,7 @@ $(function() {
 	{
 		if (contactForm.valid())
 		{
-			loader.css('display', 'block');
+			// loader.css('display', 'block');
             $('.alert.success').remove();
             $('.alert.error').remove();
 			var formValues = $(this).serialize();
