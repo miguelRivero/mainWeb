@@ -23,7 +23,7 @@ $(function() {
 				}
 				else
 				{
-					contactForm.prepend('<div class="alert error"><strong>¡UPS!</strong> Ha habido un error. Por favor envía un mail manualmente a <A HREF="mailto:mrivero@miguelrivero.net">mrivero@miguelrivero.net</A></div>');
+					contactForm.prepend('<div class="alert error"><strong>¡UPS!</strong> Ha habido un error. Por favor envía un mail manualmente a <a HREF="mailto:miguelriveroloop@gmail.com">miguelriveroloop@gmail.com</a></div>');
 				}
 				loader.hide();
 				contactForm.find('.alert').slideDown();
